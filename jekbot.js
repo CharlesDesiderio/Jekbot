@@ -26,7 +26,10 @@ client.on("ready", () => {
 client.on("message", message => {
   if (message.author.bot) return;
   if(message.content.indexOf(config.prefix) !== 0) return;
-
+  if(message.content.match(/hello there/ig) {
+     message.channel.send("General Kenobi!");
+  }
+  
   // This is the best way to define args. Trust me.
   const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
