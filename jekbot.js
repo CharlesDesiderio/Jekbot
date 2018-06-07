@@ -25,8 +25,12 @@ client.on("ready", () => {
 
 client.on("message", message => {
   if (message.author.bot) return;
+  
   if(message.content.match(/hello there/ig)) {
      message.channel.send("General Kenobi!");
+  } else
+  if (message.content.match(/Where did you come from/ig)) {
+    message.channel.send("Where did you go? Where did you come from, Cotton Eye Joe?");
   }
   if(message.content.indexOf(config.prefix) !== 0) return;
 
