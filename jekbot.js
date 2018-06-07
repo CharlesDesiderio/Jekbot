@@ -26,7 +26,7 @@ client.on("ready", () => {
 client.on("message", message => {
   if (message.author.bot) return;
   if(message.content.indexOf(config.prefix) !== 0) return;
-  if(message.content.match(/hello there/ig) {
+  if(message.content.match(/hello there/ig)) {
      message.channel.send("General Kenobi!");
   }
   
