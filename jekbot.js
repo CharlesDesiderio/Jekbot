@@ -22,6 +22,9 @@ client.on("ready", () => {
   console.log("I am ready!");
 });
 
+setTimeout(function(){
+  process.exit(0);
+}, 60 * 60 * 1000);
 
 client.on("message", message => {
   if (message.author.bot) return;
