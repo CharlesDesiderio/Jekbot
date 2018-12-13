@@ -1,10 +1,4 @@
 {
-<<<<<<< HEAD
-=======
-"scripts": {
-    "start": "node jekbot.js"
-},
->>>>>>> 9d8b4d478375b6d60f31053b16a15bab9fd84438
   "requires": true,
   "lockfileVersion": 1,
   "dependencies": {
