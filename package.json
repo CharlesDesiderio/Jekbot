@@ -1,6 +1,6 @@
 "scripts": {
     "start": "node jekbot.js"
-}
+},
 {
   "requires": true,
   "lockfileVersion": 1,
