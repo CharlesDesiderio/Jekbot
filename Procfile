@@ -1,1 +1,1 @@
-worker: node jekbot.js
+worker: npm start
